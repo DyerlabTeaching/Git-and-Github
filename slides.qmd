@@ -250,7 +250,7 @@ Select custom length and allow for enough time to not be a *problem*.  Save long
 ## Questions
 
 ::: {layout-ncol="2"}
-If you have any questions, please feel free to either post them as an "Issue" on your copy of this GitHub Repository, post to the [Canvas](https://canvas.vcu.edu) discussion board for the class, or drop me an [email](mailto://rjdyer@vcu.edu).
+If you have any questions, please feel free to either post to the [Canvas](https://canvas.vcu.edu) discussion board for the class or drop me an [email](mailto://rjdyer@vcu.edu).
 
 ![](media/peter_sellers.gif){.middle fig-alt="Peter Sellers looking bored" fig-align="center" width="500"}
 :::
