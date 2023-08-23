@@ -1,101 +1,251 @@
 ---
-title: "Title"
+title: "Git & GitHub"
 subtitle: "&nbsp;"
 author: Rodney Dyer, PhD
-format: revealjs
+format: 
+  revealjs:
+    background-transition: fade
+    theme: default
+title-slide-attributes: 
+  data-background-image: "media/contour.png"
+  data-background-position: "right"
+  data-background-size: initial
 ---
 
+# Git ? {background-color="black" background-image="media/contour.png" background-size="initial" background-position="right"}
 
 
-# Transition {background-color="black" background-image="media/contour.png" background-size="initial" background-position="right"}
-
-## Bullets
-
-When you click the **Render** button a document will be generated that includes:
-
--   Content authored with markdown
--   Output from executable code
 
 
-## Two Columns Specified
 
+## {background-image="media/problem-admitting.jpg" background-size="fit"}
+
+
+## Look Familiar? {background-image="media/file_naming.png" background-size="initial"}
+
+
+## What is Git
+
+Git is a distributed *versioning system*
+
+:::{.incremental}
+- Easy for collaboration.  
+- Easy track entire history of changes in your projects, documents, and code.  
+- Complete history of all changes.
+- Easily revert to previous instances.
+- Project Based.
+- Branching
+:::
+
+
+## Lifetime of a Document
+
+Consider a single file.  After the first edit, you now have two differents ones.  
+
+```{mermaid}
+graph LR
+  A[File v1] -->|Edited| B[File v2]
+```
+
+
+:::{.fragment .fade-in}
+In Google Docs, you can see the version history (and revert) while in Word you can use track changes to see edits but revisions are more complicated...
+:::
+
+
+## Persistence through Diffs
+
+What we **do not do** is keep multiple versions of the file around as complete files.  What is done is that the original document and only the changes made to the file—called *diffs*—are saved.
+
+:::{.fragment .fade-in}
+![](media/diff.png)
+:::
+
+
+## Lifetime of a Document
+
+Add a new figure to the file and now you have three different entities.
+
+```{mermaid}
+graph LR
+  A[File v1] -->|Edited| B[File v2]
+  B -->|New Figure| C[File v3]
+```
+
+
+## Lifetime of a Document
+
+Perhaps the figure did not work out, and you decided to replace it with an image.
+
+```{mermaid}
+graph LR
+  A[File v1] -->|Edited| B[File v2]
+  B -->|Figure| C[File v3]
+  B -->|Table| D[File v4]
+```
+
+For each new "revision", you create a separate instance of the file itself.
+
+
+## Lifetime of a Document
+
+Continue editing and making revisions.
+
+```{mermaid}
+graph LR
+  A[File v1] -->|Edited| B[File v2]
+  B -->|Figure| C[File v3]
+  B -->|Table| D[File v4]
+  D -->|Edited| E[File v5]
+```
+
+
+## Lifetime of a Document
+
+Eventually, you finish making revisions to the file.
+
+```{mermaid}
+graph LR
+  A[File v1] -->|Edited| B[File v2]
+  B -->|Figure| C[File v3]
+  B -->|Table| D[File v4]
+  D -->|Edited| E[File v5]
+  E -->|Submitted| F[Thesis!]
+```
+
+:::{.fragment .fade-in}
+**Git** allows you to have access to the entire *history* of the file and can *revert* to any of the previous version you want to.
+:::
+
+
+## Lifetime of a Document
+
+Not all documents are incremental. Submitting for publication requires a different layout, citation format, etc. than for your thesis.  Both of these are derived from *File v5* as different *branches*.
+
+```{mermaid}
+graph LR
+  A[File v1] -->|Edited| B[File v2]
+  B -->|Figure| C[File v3]
+  B -->|Table| D[File v4]
+  D -->|Edited| E[File v5]
+  E -->|Submitted| F[Thesis!]
+  E -->|Submitted| G[Publication]
+```
+
+
+
+## Git in Projects
+
+This is a process that can include hundreds of files, data sets, images, shapefiles, etc.  It is a *Project Based* approach.  
+
+And the entire project is referred to as a **Repository**.
+
+
+## Remote Locations
+
+A git repository can live in many places.
+
+:::{.incremental}
+- On your laptop  
+- On the lab computer  
+- On a thumb drive (please do not use these any more)  
+- On your home computer
+- On you iPhone
+:::
+
+## Synchronizing Repositories
+
+Having a single remote **Repository** allows you to keep all the remote repositories in sync.
+
+:::{.incremental}
+1. Establish Repository on [GitHub](https://github.com).  
+2. **Clone** that repository to your local computer.
+3. Make changes.
+4. **Commit** changes when you are at a logical stoping point.
+4. **PUSH** the one or more committed changes to [GitHub](https://github.com).
+5. On other computers with *local* copies, you **PULL** changes from [GitHub](https://github.com) to retrieve any changes you've made.
+:::
+
+
+## Pulling & Pushing.
+
+For all these computers, you need to make sure you are *pushing* changes to [GitHub](https://github.com) from your current machine so that when you get to the next computer you can *pull* down these changes.
+
+
+## Collaborations
+
+With a [GitHub](https://github.com) repository, several people can contribute to the same project and have access to the same content.
+
+:::{.incremental}
+- Can lead to conflicts
+- Merging files
+:::
+
+
+## [GitHub](https://github.com)
+
+
+# {background-image="media/github.png" background-size="fit"}
+
+
+## Github Repositories
 
 :::: {.columns}
 
-::: {.column width="50%"}
-stuff
+::: {.column width="30%"}
+- history  
+- files  
+- description  
+- settings  
+- visibility  
+- access  
+
 :::
 
-::: {.column width="50%"}
-::: {.fragment}
-stuff
-:::
+::: {.column width="70%"}
+![](media/repo.png)
 :::
 
 ::::
 
-## Some Title
 
-::: {layout-ncol="2"}
-### List One
+## Access Controls
 
--   Item A
--   Item B
--   Item C
+[GitHub](https://github.com) has a fine granularity of control over who can access content and how much access they can have.
 
-### List Two
-
--   Item X
--   Item Y
--   Item Z
+::: {.incremental}
+- Username + Password: Allows you to log into [GitHub](https://github.com).
+- Access Control: Dictates who can see and check out repositories.
+- Username + Personal Access Token: Allow you to push content back to [GitHub](https://github.com).
 :::
 
-## Another Slide
 
-::: {layout-ncol="2"}
-### The code
+## User Names & Passwords
 
-```{r eval=FALSE, echo=TRUE}
-hist( rnorm(1200) )
-```
+If you are not using a password manager, PLEASE START TODAY.
 
-### The Plot
+- 1Password
+- LastPass
+- mCrypt
 
-```{r echo=FALSE}
-hist( rnorm( 1200 ) )
-```
-:::
 
-## And another slide
+## Personal Access Tokens
 
-::: {layout-ncol="2"}
--   Item X
--   Item Y
--   Item Z
+`Settings` $\to$ `Developer Settings` $\to$ `Personal Access Tokens` 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur gravida eu erat et fring. Morbi congue augue vel eros ullamcorper, eget convallis tortor sagittis. Fusce sodales viverra mauris a fringilla. Donec feugiat, justo eu blandit placerat, enim dui volutpat turpis, eu dictum lectus urna eu urna. Mauris sed massa ornare, interdum ipsum a, semper massa.
-:::
+![](media/AccessTokens.png)
 
-## Code
 
-When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:
+## Scoped Tokens {.smaller}
 
-```{r echo=TRUE}
-px <- 0.75
-py <- 0.25
-m <- 0.1
-ret <- rep(NA,100)
-ret[1] <- py
-for( i in 2:100) {
-  ret[i] <- (1-m)*ret[(i-1)] + px * m   
-}
-```
+![](media/ClassicAccessTokens.png)
 
-## Results
+Select custom length and allow for enough time to not be a *problem*.  Save long token securely.
 
-```{r}
-plot( ret, type="l")
-```
+
+## Creating a 
+
+
 
 ## Questions
 
