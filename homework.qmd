@@ -46,3 +46,7 @@ In this section, we will use the web interface to create a new repository and th
    - Explore a license (add one or not, it is up to you).
 3. Create the repository.
 
+
+### Editing Online
+
+The [GitHub](https://github.com) web interface allows you to edit content (add and delete as well) online.  I recommend this to mostly quick things that 
