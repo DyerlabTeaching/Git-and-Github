@@ -21,7 +21,7 @@ title-slide-attributes:
 ## {background-image="media/problem-admitting.jpg" background-size="fit"}
 
 
-## Look Familiar? {background-image="media/file_naming.png" background-size="initial"}
+## Look Familiar? {background-image="media/file_naming.png" background-size="90%"}
 
 
 ## What is Git
@@ -182,13 +182,16 @@ With a [GitHub](https://github.com) repository, several people can contribute to
 :::
 
 
-## [GitHub](https://github.com)
 
 
-# {background-image="media/github.png" background-size="fit"}
+## {background-image="media/github.png" background-size="fit"}
+
+## The Profile Page 
+
+![](media/dyerlab_repository.png)
 
 
-## Github Repositories
+## Github Repositories {.smaller}
 
 :::: {.columns}
 
@@ -243,7 +246,20 @@ If you are not using a password manager, PLEASE START TODAY.
 Select custom length and allow for enough time to not be a *problem*.  Save long token securely.
 
 
-## Creating a 
+## Creating a Repository
+
+From your profile page, select the `Repositories` menu and follow the instructions.  
+- Names & Descriptions.  
+- Private vs Public.  
+- The `README.md` file as your 'front page'.  
+- The `.gitignore` file.  
+- Licenses.  
+- Websites.
+
+## Online Tour
+
+Let's take a look at the repository for [this](https://github.com/DyerlabTeaching/Git-and-Github) learning module.
+
 
 
 
