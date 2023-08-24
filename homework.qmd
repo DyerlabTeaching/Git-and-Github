@@ -16,8 +16,7 @@ At the end of this topic, you should be able to:
  - *Check out, modify, commit, and push changes in RStudio back to GitHub.*   
 
 
-## In Class Activities
-
+## Activities
 
 ### Logistics & Registration
 
