@@ -3,41 +3,29 @@
 
 ## Impetus
 
-This is a description of the basic template file for a course component repository
+Git and Github are essential components for collaboration and will serve a central role in reproducible research.  This topic will briefly introduce you to the rationale for having a versioning system and guide you through registering a GitHub Account, explore access tokens, and create a and manipulate a sample repository through RStudio.
 
 ## Student Learning Objectives
 
 At the end of this topic, you should be able to:  
- - *Learning Objective 1* 
- - *Learning Objective 2*
- - *Learning Objective 3* 
+ - *Describe the basic rationale and need for a distributed versioning system.* 
+ - *Create a new repository on GitHub.*
+ - *Check out, modify, commit, and push changes in RStudio back to GitHub.* 
 
 ## Content 
 
 This learning topic has several kinds of content associated with it.  These items can be partitioned into when they are most relevant.  
 
-### Prepatory Content
-
-These items are intended to provide everyone a background *foundational* understanding of the topic and should be gone through **prior** to class where we are working on this topic.   
- - [Background Readings](readings.html)
- - [Video Lecture](video.html)
- - [Slides For Video](video_slides.html)
- - [Data Sets](data.html)
- - [Background Assessment Quiz](background-quiz.html)
- - [Longer Background Narrative](narrative.html)
-
 ### In-Person Content
 
-This content is intended for in-person activities. In addition to presentation content, these items may include activities for individual work, group project work, reflection activities, and other assessment metrics.
- - [Slides](slides.html)
- - [In Class](in-class.html)
- - [Additional External Resources](in-class_resources.html)
+This content is intended for in-person activities. In addition to presentation content, these items may include activities for individual work, group project work, reflection activities, and other assessment metrics.  
+   - [Slides](https://dyerlabteaching.github.io/Git-and-Github/slides.html)  
+   - [In Class](https://dyerlabteaching.github.io/Git-and-Github/in-class.html)  
+   - [Full documentation from GitHub](https://docs.github.com/en)  
 
 ### Assessment Tools
 
-The ability of participants to understand, practice, and demonstrate mastery of a topic can be evaluated using both direct and indirect methods.  These will come in a variety of formats.
-- [Homework Assigmnent](homework.html)
-- [Topic Reflection](reflection.html)
+The in-class activities will be assessed by a simple quiz deployed through [Canvas](https://canvas.vcu.edu).  Please complete this 
 
 ## Contact Information
 

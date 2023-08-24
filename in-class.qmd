@@ -5,24 +5,44 @@ format:
     code-tools: true
     toc: false
 ---
+![](media/Activities.png)
 
-## Examples
+This in-class activity will get you set up for initial use of GitHub in RStudio.
 
+## Student Learning Objectives
 
-This in-class file is used for demonstrating individual examples related to this topic and is kept as a persistent record of examples provided during lectures.
-
-## The Data
-
-
-## Vectors
-
-## Matrices
-
-## Lists
-
-## Data Frames
+At the end of this topic, you should be able to:   
+ - *Create a new repository on GitHub.*  
+ - *Check out, modify, commit, and push changes in RStudio back to GitHub.*   
 
 
+## In Class Activities
 
 
+### Logistics & Registration
+
+The following steps should get you to be configuring your github account properly.
+
+1. Go to https://github.com and register as a user.  Your user name will be used publically, so choose one *appropriately*.  
+2. Save your username and password in a secure location (password manager...).
+3. Configure a personal access token (Settings -> Developer Settings -> Personal Access Token).  Make sure to select a long enough time frame (rest of the calendar year) that you do not have to go back and do this again too frequently.
+4. Save the personal access token with in a secure location (password manager...).
+5. Feel free to add a photo and other information for your account.  You can link this from your LinkedIn account or other social media sources, it is a verifiable repository for artifacts of intellectual content.
+
+
+
+![](media/CreateRepository.png)
+
+In this section, we will use the web interface to create a new repository and then use RStudio to craft a new project from it, make changes, and then push it back to GitHub.
+
+1. Log into your GitHub account.
+2. Select "Repositories" from the menu and then create a New one with the following characteristics.
+   - No Template
+   - Pick a publically visible name for your first test repository and put it into the `Repository name` field.
+   - Add a short description.
+   - Make it `Public`
+   - Add a `README` file.
+   - For `.gitignore` select `R` as the language.
+   - Explore a license (add one or not, it is up to you).
+3. Create the repository.
 
