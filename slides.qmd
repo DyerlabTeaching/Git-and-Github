@@ -256,14 +256,43 @@ From your profile page, select the `Repositories` menu and follow the instructio
 - Licenses.  
 - Websites.
 
-## Online Tour
 
-Let's take a look at the repository for [this](https://github.com/DyerlabTeaching/Git-and-Github) learning module.
+## {background-image="media/GitHubRepo.png" background-size="80%"}
+
+## Online Editing
+The repository interface allows:
+
+- Adding and deleting of files.   
+- Editing file content.
+- Deploying to websites.
+- Wiki/Comments/Feedback.
+
+
+## Going Forward
+
+:::: {.columns}
+
+::: {.column width="50%"}
+![](media/Canvas_logo.png)
+:::
+
+::: {.column width="50%"}
+
+&nbsp;
+
+![](media/GitHub_logo.png)
+:::
+
+::::
+
 
 
 
 
 ## Questions
+
+&nbsp;
+
 
 ::: {layout-ncol="2"}
 If you have any questions, please feel free to either post to the [Canvas](https://canvas.vcu.edu) discussion board for the class or drop me an [email](mailto://rjdyer@vcu.edu).

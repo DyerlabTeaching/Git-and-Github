@@ -49,4 +49,10 @@ In this section, we will use the web interface to create a new repository and th
 
 ### Editing Online
 
-The [GitHub](https://github.com) web interface allows you to edit content (add and delete as well) online.  I recommend this to mostly quick things that 
+The [GitHub](https://github.com) web interface allows you to edit content (add and delete as well) online.  I recommend this to mostly quick items.  To edit, select the file and then click on the ✏️ icon in the title pane for the file.  Once you are done editing, you must `commit` the changes you've made (and put in good description of what you did).
+
+1. Select the `README.md` file and edit it.   
+2. Add a paragraph of text to the file.  
+3. Commit the changes (give a commit message) and see how the content you added to the file changes the overall repository front page.  
+
+
